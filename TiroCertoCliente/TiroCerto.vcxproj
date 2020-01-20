@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1C56D2F2-8D3D-4267-9D7A-E839B84C49F7}</ProjectGuid>
+    <RootNamespace>TiroCerto</RootNamespace>
+    <ProjectName>TiroCerto</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Temp\jogos\libs\SDL_mixer\include;C:\Temp\jogos\libs\SDL_image\include;C:\Temp\jogos\libs\SDL\include;C:\Temp\jogos\libs\c2d2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Temp\jogos\libs\c2d2\lib;C:\Temp\jogos\dlls;C:\Temp\jogos\libs\SDL_mixer\lib;C:\Temp\jogos\libs\SDL_image\lib;C:\Temp\jogos\libs\SDL\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Temp\jogos\libs\c2d2\lib;C:\Temp\jogos\dlls;C:\Temp\jogos\libs\SDL_mixer\lib;C:\Temp\jogos\libs\SDL_image\lib;C:\Temp\jogos\libs\SDL\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Temp\jogos\libs\SDL_mixer\include;C:\Temp\jogos\libs\SDL_image\include;C:\Temp\jogos\libs\SDL\include;C:\Temp\jogos\libs\c2d2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;SDL.lib;SDLmain.lib;SDL_image.lib;SDL_mixer.lib;opengl32.lib;glu32.lib;cator.lib;winmm.lib;c2d2.lib;ca2.lib;cm2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Ws2_32.lib;SDL.lib;SDLmain.lib;SDL_image.lib;SDL_mixer.lib;opengl32.lib;glu32.lib;cator.lib;winmm.lib;c2d2.lib;ca2.lib;cm2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="BackupMe.bat" />
+    <None Include="docs\TiroCerto_preliminar.pdf" />
+    <None Include="images\arial32.png" />
+    <None Include="images\mira.png" />
+    <None Include="images\spr_btn_atualizar.png" />
+    <None Include="images\spr_btn_credito.png" />
+    <None Include="images\spr_btn_ok.png" />
+    <None Include="images\spr_btn_sair.png" />
+    <None Include="images\spr_btn_voltar.png" />
+    <None Include="images\spr_start_titulo.png" />
+    <None Include="images\spr_statusservidor_off.png" />
+    <None Include="images\spr_statusservidor_on.png" />
+    <None Include="images\spr_titulo_login.png" />
+    <None Include="images\spr_titulo_novousuario.png" />
+    <None Include="images\spr_titulo_statusservidor.png" />
+    <None Include="images\spr_txt_email.png" />
+    <None Include="images\spr_txt_login.png" />
+    <None Include="images\spr_txt_novousuario.png" />
+    <None Include="images\spr_txt_senha.png" />
+    <None Include="images\spr_txt_usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client\ConnClientWin.cpp" />
+    <ClCompile Include="Cursor21.cpp" />
+    <ClCompile Include="Editbox21.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="modelo\Player.cpp" />
+    <ClCompile Include="ThreadWorker.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="UtilWindows.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client\ConnClientWin.h" />
+    <ClInclude Include="Cursor21.h" />
+    <ClInclude Include="Editbox21.h" />
+    <ClInclude Include="jogo_constantes.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="modelo\Player.h" />
+    <ClInclude Include="modelo\ProtocoloPartida.h" />
+    <ClInclude Include="modelo\ProtocoloStatus.h" />
+    <ClInclude Include="protocolo\ProtocoloPartida.h" />
+    <ClInclude Include="ThreadWorker.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="UtilWindows.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

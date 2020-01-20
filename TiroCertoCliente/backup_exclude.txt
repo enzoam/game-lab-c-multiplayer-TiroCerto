@@ -1,0 +1,7 @@
+Debug
+Release
+ipch
+Thumbs.db
+.DS_*
+*.sdf
+stdout.txt

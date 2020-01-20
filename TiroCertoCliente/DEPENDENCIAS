@@ -1,0 +1,31 @@
+TiroCertoLiz v1.0
+============
+
+1 - Compilando -  (compiler: GNU GCC Compiler)
+----------------------------
+
+- Chien2d2
+
+Linux:
+sudo apt-get update
+OpenGL: sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+Suse
+freeglut-devel
+glut-devel
+Mesa-libEGL-devel
+
+Windows:
+
+Locate your Visual Studio folder for where it puts libraries and also header files, download and copy lib files to lib folder and header files to header. Then copy dll files to system32. Then your code will 100% run.
+
+Also[Windows]:For all of those includes you just need to download glut32.lib glut.h glut32.dll
+ 
+
+ 
+
+MingGW - Adicionar as bibliotecas
+----------------------------
+winmm
+gdi32
+dxguid

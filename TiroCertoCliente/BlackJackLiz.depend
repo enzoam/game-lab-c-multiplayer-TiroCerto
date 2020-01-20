@@ -1,0 +1,367 @@
+# depslib dependency file v1.0
+1405430156 source:/home/liz/workspaceCB/BlackJackLiz/BJLServer.cpp
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"modelo/ConnCliente.h"
+	"modelo/ConnServer.h"
+
+1403537828 source:/home/liz/workspaceCB/BlackJackLiz/modelo/Carta.cpp
+	"Carta.h"
+
+1403538975 /home/liz/workspaceCB/BlackJackLiz/modelo/Carta.h
+	<string>
+
+1403538898 source:/home/liz/workspaceCB/BlackJackLiz/modelo/Baralho.cpp
+	"Baralho.h"
+
+1403538893 /home/liz/workspaceCB/BlackJackLiz/modelo/Baralho.h
+	"Carta.h"
+	<vector>
+
+1403636662 source:/home/liz/workspaceCB/BlackJackLiz/modelo/Player.cpp
+	"Player.h"
+
+1403636765 /home/liz/workspaceCB/BlackJackLiz/modelo/Player.h
+	<string>
+
+1404325348 source:/home/liz/workspaceCB/BlackJackLiz/modelo/ConnCliente.cpp
+	"ConnCliente.h"
+
+1404153964 /home/liz/workspaceCB/BlackJackLiz/modelo/ConnCliente.h
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+
+1404322590 /home/liz/workspaceCB/BlackJackLiz/modelo/ConnServer.h
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"ClientSock.h"
+
+1404326917 /home/liz/workspaceCB/BlackJackLiz/modelo/ClientSock.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1404328173 source:/home/liz/workspaceCB/BlackJackLiz/modelo/ConnServer.cpp
+	"ConnServer.h"
+	<string.h>
+	<sys/types.h>
+	<ifaddrs.h>
+	<sys/ioctl.h>
+	<net/if.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1404326899 source:/home/liz/workspaceCB/BlackJackLiz/modelo/ClientSock.cpp
+	"ClientSock.h"
+
+1405039759 source:/home/liz/workspaceCB/BlackJackLiz/Cursor21.cpp
+	"Cursor21.h"
+
+1404947788 /home/liz/workspaceCB/BlackJackLiz/Cursor21.h
+	<stdio.h>
+	"c2d2/ator.h"
+
+1296433030 /home/liz/workspaceCB/LIBS/chien2d2/include/c2d2/ator.h
+
+1405429615 source:/home/liz/workspaceCB/BlackJackLiz/Editbox21.cpp
+	"UtilWindows.h"
+	"Util.h"
+	"Editbox21.h"
+
+1405424932 /home/liz/workspaceCB/BlackJackLiz/UtilWindows.h
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<windows.h>
+
+1405429934 /home/liz/workspaceCB/BlackJackLiz/Util.h
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+
+1405429329 /home/liz/workspaceCB/BlackJackLiz/Editbox21.h
+	<c2d2/chien2d2.h>
+	<c2d2/chien2d2primitivas.h>
+	<string>
+
+1296433030 /home/liz/workspaceCB/LIBS/chien2d2/include/c2d2/chien2d2.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_platform.h
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/begin_code.h
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/close_code.h
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_keysym.h
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327110802 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1296433030 /home/liz/workspaceCB/LIBS/chien2d2/include/c2d2/chien2d2primitivas.h
+
+1404795642 source:/home/liz/workspaceCB/BlackJackLiz/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Menu.h"
+
+1405307471 /home/liz/workspaceCB/BlackJackLiz/Menu.h
+	<stdio.h>
+	"c2d2/chien2d2.h"
+	"c2d2/chien2d2primitivas.h"
+	"c2d2/chienaudio2.h"
+	"Editbox21.h"
+	"Cursor21.h"
+
+1296433030 /home/liz/workspaceCB/LIBS/chien2d2/include/c2d2/chienaudio2.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	<SDL_mixer.h>
+
+1326650181 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1326954700 /home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include/SDL/SDL_types.h
+	"SDL_stdinc.h"
+
+1405457206 source:/home/liz/workspaceCB/BlackJackLiz/Menu.cpp
+	"Menu.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"SDL/SDL_thread.h"
+	"jogo_constantes.h"
+
+1405457251 /home/liz/workspaceCB/BlackJackLiz/jogo_constantes.h
+
+1404102840 source:/home/liz/workspaceCB/BlackJackLiz/ThreadWorker.cpp
+
+1405430050 source:/home/liz/workspaceCB/BlackJackLiz/Util.cpp
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<sstream>
+	<string.h>
+	<malloc.h>
+	"Util.h"
+

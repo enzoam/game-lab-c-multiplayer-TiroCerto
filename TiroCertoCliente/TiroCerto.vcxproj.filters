@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="docs">
+      <UniqueIdentifier>{d09473f0-ed5f-4d15-8ccc-952337602f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{e1b71f9b-618e-4501-ae6b-6853a75b3e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="game\Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{4f5e1f5c-f8a1-475d-9a85-d5c742d03d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modelo">
+      <UniqueIdentifier>{ac82835e-1955-41fe-a9c8-c84405c91274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modelo\Header">
+      <UniqueIdentifier>{b09125d3-ebb7-47db-8608-5c45bee52476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modelo\Source">
+      <UniqueIdentifier>{8556b870-bf4c-4186-8775-19aa1e175bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protocolo">
+      <UniqueIdentifier>{54d50e23-bd04-4a8f-ac4f-a04c2445692e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{66cc1cd2-69b9-43ce-a0a7-16c7307c7501}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\TiroCerto_preliminar.pdf">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="images\arial32.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\mira.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_btn_atualizar.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_btn_credito.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_btn_ok.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_btn_sair.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_btn_voltar.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_start_titulo.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_statusservidor_off.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_statusservidor_on.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_titulo_login.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_titulo_novousuario.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_titulo_statusservidor.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_txt_email.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_txt_login.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_txt_novousuario.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_txt_senha.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\spr_txt_usuario.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="BackupMe.bat">
+      <Filter>utils</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Menu.cpp">
+      <Filter>game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadWorker.cpp">
+      <Filter>game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor21.cpp">
+      <Filter>game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Editbox21.cpp">
+      <Filter>game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="modelo\Player.cpp">
+      <Filter>modelo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilWindows.cpp">
+      <Filter>game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="client\ConnClientWin.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jogo_constantes.h">
+      <Filter>game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadWorker.h">
+      <Filter>game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor21.h">
+      <Filter>game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Editbox21.h">
+      <Filter>game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="modelo\Player.h">
+      <Filter>modelo\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="modelo\ProtocoloPartida.h">
+      <Filter>modelo\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="modelo\ProtocoloStatus.h">
+      <Filter>modelo\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilWindows.h">
+      <Filter>game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="protocolo\ProtocoloPartida.h">
+      <Filter>protocolo</Filter>
+    </ClInclude>
+    <ClInclude Include="client\ConnClientWin.h">
+      <Filter>client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

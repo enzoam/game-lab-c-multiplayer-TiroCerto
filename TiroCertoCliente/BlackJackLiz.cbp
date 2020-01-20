@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BlackJackLiz" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BlackJackLiz" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BlackJackLiz" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-static-libgcc" />
+			<Add directory="/home/liz/workspaceCB/LIBS/chien2d2/include" />
+			<Add directory="/home/liz/workspaceCB/LIBS/SDL/linux64_1.2/include" />
+			<Add directory="/home/liz/workspaceCB/LIBS/PNG/multi/include/libpng12" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="/home/liz/workspaceCB/Chien2d2Compilar/obj/Release" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="`fltk-config --ldstaticflags` -lpthread -ldl" />
+			<Add option="-lGL -lGLU" />
+			<Add option="-lSDL -lSDL_image -lSDL_mixer" />
+			<Add library="/home/liz/workspaceCB/Chien2d2Compilar/bin/Release/libChien2d2Compilar.a" />
+			<Add library="/home/liz/workspaceCB/LIBS/PNG/multi/lib64/libpng12.a" />
+			<Add library="SDL" />
+			<Add library="SDLmain" />
+			<Add library="SDL_image" />
+			<Add library="SDL_mixer" />
+			<Add library="GL" />
+			<Add library="GLU" />
+			<Add directory="/home/liz/workspaceCB/LIBS/SDL/linux32_1.2/lib" />
+			<Add directory="/home/liz/workspaceCB/LIBS/SDL/linux1.2_image/lib" />
+			<Add directory="/home/liz/workspaceCB/LIBS/SDL/linux1.2_mixer/lib" />
+		</Linker>
+		<Unit filename="BJLServer.cpp" />
+		<Unit filename="Cursor21.cpp" />
+		<Unit filename="Cursor21.h" />
+		<Unit filename="Editbox21.cpp" />
+		<Unit filename="Editbox21.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="ThreadWorker.cpp" />
+		<Unit filename="ThreadWorker.h" />
+		<Unit filename="Util.cpp" />
+		<Unit filename="Util.h" />
+		<Unit filename="images/arial32.png" />
+		<Unit filename="images/mira.png" />
+		<Unit filename="images/spr_btn_atualizar.png" />
+		<Unit filename="images/spr_btn_credito.png" />
+		<Unit filename="images/spr_btn_ok.png" />
+		<Unit filename="images/spr_btn_sair.png" />
+		<Unit filename="images/spr_btn_voltar.png" />
+		<Unit filename="images/spr_start_titulo.png" />
+		<Unit filename="images/spr_statusservidor_off.png" />
+		<Unit filename="images/spr_statusservidor_on.png" />
+		<Unit filename="images/spr_titulo_login.png" />
+		<Unit filename="images/spr_titulo_novousuario.png" />
+		<Unit filename="images/spr_titulo_statusservidor.png" />
+		<Unit filename="images/spr_txt_email.png" />
+		<Unit filename="images/spr_txt_login.png" />
+		<Unit filename="images/spr_txt_novousuario.png" />
+		<Unit filename="images/spr_txt_senha.png" />
+		<Unit filename="images/spr_txt_usuario.png" />
+		<Unit filename="jogo_constantes.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="modelo/Baralho.cpp" />
+		<Unit filename="modelo/Baralho.h" />
+		<Unit filename="modelo/Carta.cpp" />
+		<Unit filename="modelo/Carta.h" />
+		<Unit filename="modelo/ClientSock.cpp" />
+		<Unit filename="modelo/ClientSock.h" />
+		<Unit filename="modelo/ConnCliente.cpp" />
+		<Unit filename="modelo/ConnCliente.h" />
+		<Unit filename="modelo/ConnServer.cpp" />
+		<Unit filename="modelo/ConnServer.h" />
+		<Unit filename="modelo/Player.cpp" />
+		<Unit filename="modelo/Player.h" />
+		<Unit filename="modelo/ProtocoloPartida.h" />
+		<Unit filename="modelo/ProtocoloStatus.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
